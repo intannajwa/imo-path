@@ -80,7 +80,7 @@ return baseclass.extend({
         }
 
         var fields = [
-            _('FIRMWARE'), 'XXXXXXXXXX',
+            _('FIRMWARE'), 'DOTYWRT V1.0 - IMMORTALWRT 24.10.0',
             _('MODEL'), boardinfo.model + cpubench.cpubench,
             _('VERSION'), (L.isObject(boardinfo.release) ? boardinfo.release.description : ''),
             _('KERNEL'), boardinfo.kernel,
@@ -90,7 +90,7 @@ return baseclass.extend({
         ];
 
         if (tempinfo.tempinfo) {
-            fields.splice(6, 0, _('Temperature'));
+            fields.splice(6, 0, _('TEMP'));
             fields.splice(7, 0, tempinfo.tempinfo);
         }
 
