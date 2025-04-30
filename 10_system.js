@@ -82,7 +82,7 @@ return baseclass.extend({
         }
 
         var fields = [
-            _('Firmware Name'), 'DOTYWRT 1.0 - IMO-24.10.0',
+            _('Firmware Name'), 'DOTYWRT 1.0 - Immortalwrt 24.10.0',
             //_('Hostname'), boardinfo.hostname,
             _('Model'), boardinfo.model + cpubench.cpubench,
             _('Architecture'), cpuinfo.cpuinfo || boardinfo.system,
