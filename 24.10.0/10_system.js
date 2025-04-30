@@ -80,7 +80,7 @@ return baseclass.extend({
         }
 
         var fields = [
-            _('FIRMWARE'), 'DOTYWRT V1.0 - IMMORTALWRT 24.10.0',
+            _('FIRMWARE'), 'XXXXXXXXXX',
             _('MODEL'), boardinfo.model + cpubench.cpubench,
             _('VERSION'), (L.isObject(boardinfo.release) ? boardinfo.release.description : ''),
             _('KERNEL'), boardinfo.kernel,
